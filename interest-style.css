@@ -178,18 +178,23 @@ nav ul li a:hover::after {
 
 .highlighted-text {
   color: #ffe456; /* Replace with your desired highlight color */
+  padding: 100px 0;
+}
+
+#about2 {
+  padding: 100px 0;
+}
+
+.highlighted-text {
+  color: #ffe456;
 }
 
 /*----------------------------------------abouuuttttt for trishiaaaaa---------------------------*/
 
 /* CSS for About2 Section */
 #about2 {
-  padding: 150px 0; /* Adjust the top and bottom padding to control spacing */
-  height: 110vh;
-  color: #e4dada;
-  background-image: url(images/Bogart\ .jpg);
-  background-size: cover;
-  background-position: center;
+  padding: 150px 0;
+  color: #ffffff;
 }
 
 #about2 .row {
@@ -290,7 +295,7 @@ nav ul li a:hover::after {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   box-sizing: border-box;
-  text-align: center; /* Center text within sections */
+  text-align: center;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
   margin: 0 10px; /* Add spacing between sections */
@@ -429,7 +434,7 @@ nav ul li a:hover::after {
   height: 105vh;
   padding: 40px 0; /* Set padding to 0 */
   margin: 0; /* Set margin to 0 */
-  color: #fff;
+  color: #080808;
   position: relative;
 }
 
@@ -442,7 +447,7 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 #contact {
@@ -465,7 +470,7 @@ nav ul li a:hover::after {
 }
 
 .contact-content img {
-  margin: 30px;
+  margin: 10px;
 }
 
 .contact-info {
@@ -475,7 +480,8 @@ nav ul li a:hover::after {
 
 .social-icons {
   justify-content: center;
-  text-align: center; /* Center-align the social icons */
+  text-align: center;
+  margin-top: 20px; /* Center-align the social icons */
 }
 
 .social-icons a {
@@ -485,7 +491,7 @@ nav ul li a:hover::after {
   color: #0f0f0f;
   display: inline-block;
   transition: transform 0.5s;
-  margin-top: -10px; /* Add margin-top to separate the icons from the image */
+  margin-top: -500px; /* Add margin-top to separate the icons from the image */
 }
 
 .social-icons a:hover {
@@ -494,9 +500,10 @@ nav ul li a:hover::after {
 }
 
 .school_email {
-  color: #fff;
-  font-size: 20px;
+  color: #000000;
+  font-size: 15px;
   text-align: center;
+  margin-top: -10px;
 }
 
 .copyright {
